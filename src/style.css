@@ -1,0 +1,54 @@
+ * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-position: center;
+            background-image: url("https://media.discordapp.net/attachments/775448139938922540/1160055823410671746/moroccan-zellige-pattern-with-geometric-shapes-beautiful-colors_274845-1567.png?ex=6533452d&is=6520d02d&hm=d423ae5a18ae1ab156dd76789be4b5a4c8e2c6e404023f2a52837ecd48f5bcf4&=&width=480&height=480");
+            background-size: 49vw;
+            padding-top: 19%;
+        }
+
+        #title {
+            margin:auto ;
+            width: calc(99vw - 100px);
+            height: 99px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 3px;
+            border: 0px solid black;
+            border-radius: 0 0 10px 10px;
+        }
+
+        #title div {
+            font-size: 14px;
+            display: flex;
+            width: 99%;
+            margin-bottom: 9px;
+            padding: 0 5px;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: "Young Serif", serif;
+        }
+
+        #title label {
+            font-family: inherit;
+            width: 199px;
+            color: rgb(25, 28, 94);
+        }
+
+        #title input {
+            font-family: inherit;
+            outline:0;
+            border: 0;
+            border-bottom: 1px dashed black;
+            width: 149px;
+        }
